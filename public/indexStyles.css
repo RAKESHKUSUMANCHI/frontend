@@ -1,0 +1,59 @@
+body {
+  font-family: "montserrat";
+  text-align: center;
+}
+
+p{
+  font-family: Roboto;
+  color: #F90716;
+}
+nav{
+  background-color: #FF7272;
+}
+
+.refresh{
+  margin: 1.5rem;
+  background-color: #FF7272;
+}
+
+#full-image{
+  border: 5px solid #FF7272;
+  margin: auto;
+  width: 27rem;
+  height: 27rem;
+}
+
+img{
+  margin-top: 1.3rem;
+  height: 20rem;
+  width: 20rem;
+}
+
+.top-text{
+  position: relative;
+  top :4rem;
+}
+.bottom-text{
+  position: relative;
+  bottom :  2rem;
+}
+
+.text-input{
+  text-align: center;
+  width: 30rem;
+  margin :1.5rem auto;
+}
+
+.input-group-text{
+  width: 6.5rem;
+  background-color: #FF7272;
+}
+.insert{
+  margin : 0.5rem auto;
+}
+
+.download{
+  border: 1px solid #FF7272;
+  text-decoration: none;
+  color: black;
+}

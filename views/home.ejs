@@ -1,0 +1,36 @@
+<%- include("header") -%>
+
+<form class="" action="/" method="get">
+  <button class="refresh btn btn-md" type="submit" name="button">Get another</button>
+</form>
+
+
+<div id="full-image">
+
+  <div id="img-text">
+    <p class="top-text"><%= topText %></p>
+    <img src=<%=imgSrc%> alt="meme_template" />
+      <p class="bottom-text"><%= bottomText %></p>
+  </div>
+
+</div>
+
+<form class="text-input" action="/" method="post">
+  <div class="input-group input-group-sm mb-1">
+    <span class="input-group-text">Top-Text</span>
+    <input type="text" class="form-control" name="topText" value="<%= topText %>" maxlength="30" placeholder="write here">
+  </div>
+  <div class="input-group input-group-sm mb-1">
+    <span class="input-group-text">Bottom-Text</span>
+    <input type="text" class="form-control" name="bottomText" value="<%= bottomText %>" maxlength="30" placeholder="write here">
+  </div>
+  <input type="hidden" name="imgSrc" value="<%= imgSrc %>"></input>
+  <div class="input-group-sm mb-1">
+    <button class=" insert input-group-text input-group-sm" type="submit" name="button">Insert</button>
+  </div>
+
+</form>
+
+<a class="download" href="">download</a>
+
+<%- include("footer") -%>
